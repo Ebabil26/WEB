@@ -1,0 +1,234 @@
+@import "reset.css";
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1130px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    margin-bottom: 55px;
+}
+
+.main {
+    background-color: #EEEFF1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding-top: 55px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    width: 50%;
+}
+
+.nav_container{
+    float: right;
+    margin-right: 413px;
+    margin-top: 79px;
+
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+nav a {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 50px;
+}
+
+nav a:last-child {
+    margin: 0;
+}
+
+
+nav a:hover {
+    transition: color 0.3s ease;
+    color: #34547A;
+    font-weight: 500;
+}
+
+.main_pic{
+    float: left;
+    padding-top: 278px;
+}
+
+.main h2{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    margin-bottom: 80px;
+    color: #000000;
+}
+
+.main p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 60px;
+    color: #727272;
+}
+
+.main button {
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    border: solid 2px #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.main button:hover {
+    transition: color 0.3s ease;
+    color: #34547A;
+    border-color: #34547A;
+    background: #ffffff;
+    font-weight: 500;
+}
+
+.section-2 {
+    padding: 120px 0 100px;
+}
+
+.section-2 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2 h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.section-2 p {
+    max-width: 540px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.section-3 {
+    padding: 108px 0 100px;
+    background: #34547A;
+}
+
+.section-3 .project {
+    color: #FFFFFF;
+}
+
+.section-3 .project img {
+    margin-right: 20px;
+}
+
+.section-3 .project__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-3 .project__title {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.section-3 .project__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.section-4 {
+    padding: 100px 0;
+}
+
+.section-4 h2{
+    margin-bottom: 45px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.section-4 dd {
+    margin: 0;
+    margin-bottom: 10px;
+    background-color: #C4C4C4;
+    width: 445px;
+    height: 4px;
+    
+}
+.section-4 dt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+    color: #727272;
+    
+}
+
+.skills-level {
+    font-size: 12px;
+    text-align: right;
+    color: #ffffff;
+    background-color: #34547A;
+    width: 349.36px;
+    height: 4px;
+    
+}
+
+.skills-level-ok {
+    background-color: #34547A;
+}
+
+.skills img{
+    width: 555px;
+    height: 450px;
+    float: right;
+    margin-right: 384px;
+    margin-top: -250px;
+
+}
+
+.carousel_slide{
+    float: right;
+    margin-top: 1000px;
+}
